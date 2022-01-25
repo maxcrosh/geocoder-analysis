@@ -6,5 +6,5 @@ from spiders.geocoder import GeocoderSpider
 process = CrawlerProcess()
 
 process.crawl(GeocoderSevenSpider)
-process.crawl(GeocoderSpider)
+# process.crawl(GeocoderSpider)
 process.start()
